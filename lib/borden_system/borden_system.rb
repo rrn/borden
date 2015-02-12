@@ -73,7 +73,7 @@ module BordenSystem
       output[:minor_east_west] = match[4]
       return output
     else
-      raise InvalidBordenNumber, "Invalid borden number: #{string}"
+      raise InvalidBordenNumber, "Invalid borden number: '#{string}'"
     end
   end
 
